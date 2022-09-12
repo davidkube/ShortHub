@@ -3,6 +3,10 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {},
+    minWidth: {
+      '1/2': '50%',
+      '1/4': '25%'
+    }
   },
   plugins: [
     require("@tailwindcss/typography"),
